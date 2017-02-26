@@ -12,4 +12,4 @@ Being fully addressable, the daytime running lights also serve the purpose of ac
 - A startup animation was added just before installation of the lights. I have no idea about the legality of this.
 
 ## References
-Due to hearing about timing issues in communicating with WS2812Bs, this code uses a slightly modified version of (bigjosh2's)[https://wp.josh.com/2014/05/13/ws2812-neopixels-are-not-so-finicky-once-you-get-to-know-them/] code for communicating with the LED strip. 
+Due to hearing about timing issues in communicating with WS2812Bs, this code uses a slightly modified version of [bigjosh2's](https://wp.josh.com/2014/05/13/ws2812-neopixels-are-not-so-finicky-once-you-get-to-know-them/) code for communicating with the LED strip. 
