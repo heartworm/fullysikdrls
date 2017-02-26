@@ -3,6 +3,10 @@
 This repo is the control logic for an extemely cheap WS2812B strip of LED lights I've mounted as daytime running lights (DRLs) on the front grille of my car. The code is written for an ATMega328P (currently an Arduino Nano) in AVR C. 
 Being fully addressable, the daytime running lights also serve the purpose of acting as sequential turn signals, similar to those on the new Audi A6.  For legal (and courtesy) reasons the lights also have to dim when the car's park lights are activated. 
 
+### Operation Video
+[![Video of the lights in action.](http://i.imgur.com/K8r4bpJ.png)](https://youtu.be/KnyYZ7LNsUY)
+
+
 ## Details
 - As a challenge, the code doesn't store the state of the LEDs as a bitmap, but makes each frame on the fly. Wanted to practice avoiding RAM use. 
 - The unclean 12V (fluctuating due to alternator) from the car had to serve as digital inputs to the Arduino. A simple zener diode was used to drop each input because it was an inexpensive method, and it didn't draw too much as it was driven unfused directly by the Body Control Module (expensive!). 
